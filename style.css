@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  background-color: grey; 
+  padding-bottom: 10px;
+  padding-top: 8px;
+  margin-top: -8px;
+  border: 2px solid black;
+}
+
+.navbar-brand{
+  color: black;
+}
+
+@media (min-width:992px) {
+  .nav-link{
+    display: none;
+  }
+  .col-md-4{
+    float: left;
+  }
+}
+
+@media (max-width:768px){
+.col-md-4{
+  margin-bottom: 10px;
+}
+}
+
